@@ -64,7 +64,7 @@ public class WriteLoops {
         // Write a FOR loop that counts down from 100 to 0.
         // calling
         // each time through the loop
-        for (i = 100; i >= 0; i--){
+        for (i = 0; i <= 99; i++){
             w = w + 1;
         }
 
