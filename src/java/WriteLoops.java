@@ -102,13 +102,19 @@ public class WriteLoops {
 
     public int nestedFors() {
         int w = 0;
+        int i;
+        for (i = 0; i < 20; i++) {
 
+            for(i = 0; i <= 4; i++) {
+                w = w + 1;
+            }
+            w = w + 1;
+        }
         // Write a nested FOR loop(s), where one counts from
         // 0 to less than 20 and the inner one counts from 0 to 4
                 // calling
-                w = w + 1;
-                // each time through the inner loop
 
+                // each time through the inner loop
         return w;
     }
 
@@ -296,8 +302,10 @@ public class WriteLoops {
     public int manageYardAndJunior() {
         int w = 0;
         boolean onTime = true;
+        boolean yardNeedsMowed = true;
 
         // ADD YOUR CODE here.
+
  
             // be sure to call
             w = w + 1;
@@ -313,13 +321,14 @@ public class WriteLoops {
     // the array.
     public int tallyVote1() {
         int w = 0;
+         int i;
         int numberOfVotes = voteTallies.length;
-
- 
+        for (i = 0; i < numberOfVotes; i++) {
+            System.out.println(numberOfVotes );
             // calling
             w = w + 1;
             // each time through the inner loop
-        
+        }
         return w;
     }
 
