@@ -74,10 +74,13 @@ public class WriteLoops {
 
     public int byTwoTo32() {
         int w = 0;
+        int i;
 
-        // Write a FOR loop from 0 to 32 by 2s.
-        // calling
-        w = w + 1;
+        for (i = 2; i <= 34; i+=2) {
+            // Write a FOR loop from 0 to 32 by 2s.
+            // calling
+            w = w + 1;
+        }
         // each time through the loop
         return w;
     }
