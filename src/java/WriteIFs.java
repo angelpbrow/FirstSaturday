@@ -11,6 +11,10 @@ public class WriteIFs
     public void playerDied(boolean player1) {
         // Write an IF statement that checks “player1.isAlive()” 
         // and if that’s false, calls “displayGameOver(player1)”
+        if (player1) {
+
+        }
+            displayGameOver(player1);
      
     }
     
@@ -36,7 +40,9 @@ public class WriteIFs
         // AND 
         // “insideTemp()” is less than 62, 
         // calls “startAFire(fireplace1)”
-
+        if (outsideTemp() < 50 && insideTemp() <62 ) {
+            startAFire(fireplace1);
+    }
     }
 
     public void checkFuel(double fuelLevel) {
