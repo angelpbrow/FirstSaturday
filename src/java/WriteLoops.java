@@ -86,11 +86,15 @@ public class WriteLoops {
     }
 
     public int countDownFrom5000() {
-        int w = 0;
+        int w = 1;
+        int i;
 
+        for (i = 11; i <= 4999; i+=11){
+            w = w + 1;
+        }
         // Write a FOR loop from 1 to less than 5001 by 11s.
         // calling
-        w = w + 1;
+
         // each time through the loop
         
         return w;
