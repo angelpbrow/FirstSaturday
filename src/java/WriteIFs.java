@@ -19,6 +19,12 @@ public class WriteIFs
         // “temperature(room)” and if that check is less than 70, 
         // calls “heatOn()” else calls “coolOn()”
 
+        if (room < 70){
+            heatOn();
+        } else {
+            coolOn();
+        }
+
 
         
         return this.ss;
