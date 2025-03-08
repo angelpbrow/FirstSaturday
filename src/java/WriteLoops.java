@@ -100,6 +100,10 @@ public class WriteLoops {
         return w;
     }
 
+
+
+    //INFINITE LOOP
+
     public int nestedFors() {
         int w = 0;
         int i;
