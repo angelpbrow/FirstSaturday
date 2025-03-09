@@ -106,13 +106,13 @@ public class WriteLoops {
 
     public int nestedFors() {
         int w = 0;
-        int i;
-        for (i = 0; i < 20; i++) {
+        for (int i = 0; i < 20; i++) {
 
-            for(i = 0; i <= 4; i++) {
+            for(int c = 0; c < 5; c++) {
                 w = w + 1;
+
             }
-            w = w + 1;
+
         }
         // Write a nested FOR loop(s), where one counts from
         // 0 to less than 20 and the inner one counts from 0 to 4
@@ -124,14 +124,21 @@ public class WriteLoops {
 
     public int helloZipCode() {
         int w = 0;
-
+        int i;
+        for(i = 5; i <= 105; i++){
+            if( i > 51) {
+                System.out.println("Hello Zipcode");
+            } else {
+                w = w + 1;
+            }
+        }
         // Write a FOR loop that counts from 5 to 105. Put an IF
         // statement inside the loop that checks the
         // loop index counter and if it’s greater than 51,
         // prints “Hello Zipcode” instead of the statement w = w + 1;
 
                 // calling
-                w = w + 1;
+
             // each time through the inner loop
         
         return w;
